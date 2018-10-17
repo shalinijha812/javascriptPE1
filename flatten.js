@@ -10,13 +10,19 @@
 (function(){
   "use strict"
   var myObj = [5, [22], [[14]], [[4]],[5,6]];
-  var flatten=require('flat')
-  var arr=flatten(myObj,2);
+ var arr= myObj.flat(2);
+//   var flatten=require('flat')
+//   var arr=flatten(myObj,2);
   
 //   for(let i=0;i<arr.length;i++)
 //     {
 //       console.log(arr[i]);
-//     }\
+//     }
   console.log(Object.values(arr));
   
 })();
+/*
+Exception: ReferenceError: require is not defined
+@Scratchpad/1:13:7
+@Scratchpad/1:10:2
+*/

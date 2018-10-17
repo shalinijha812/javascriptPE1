@@ -79,64 +79,55 @@ for(let i=0;i<myObj.length;i++)
 //                myObj.map(Object.getOwnPropertyDescriptor(myObj[i],'name'));
                
   
-  //
+  //var descriptor=Object.getOwnPropertyDescriptor(myObj[i],'name');
   
+//   var arr=[]; 
+//   function getTheNames(obj)
+//   {
+//     var iter=0;
+//     myObj.forEach(element=>{
+//     var nameArr[iter++]=Object.getOwnPropertyDescriptor(element,'name');
+    
+//     }
+//     return nameArr;
+    
+//   }var squareNumbers2 = numberArray.map(number => number*number);
+  //var copyObj = Object.assign({}, myObj);
+ 
+  var name_map = myObj.map(obj=>obj.name);
+    console.log(name_map);
 })();
+/*
+Exception: ReferenceError: obj1 is not defined
+@Scratchpad/1:1:7
+*/
+/*
+Exception: ReferenceError: obj1 is not defined
+@Scratchpad/1:1:5
+*/
+   
+  
+
+    
 
 
 
+
 /*
-Exception: TypeError: occObj.push is not a function
-@Scratchpad/5:44:3
-@Scratchpad/5:10:2
+Exception: TypeError: copyObj.map is not a function
+@Scratchpad/1:97:16
+@Scratchpad/1:10:2
 */
 /*
-Exception: SyntaxError: missing ) after argument list
-@Scratchpad/5:45
+Exception: SyntaxError: missing = in const declaration
+@Scratchpad/1:97
 */
 /*
-Exception: ReferenceError: occObject is not defined
-@Scratchpad/5:52:1
-@Scratchpad/5:10:2
+Exception: SyntaxError: unexpected token: '-'
+@Scratchpad/1:97
 */
 /*
-Exception: ReferenceError: occObject is not defined
-@Scratchpad/5:52:1
-@Scratchpad/5:10:2
-*/
-/*
-Exception: TypeError: occObj is undefined
-@Scratchpad/5:45:21
-@Scratchpad/5:10:2
-*/
-/*
-Exception: SyntaxError: unexpected token: '['
-@Scratchpad/5:48
-*/
-/*
-Exception: SyntaxError: unexpected token: '['
-@Scratchpad/5:48
-*/
-/*
-Exception: SyntaxError: unexpected token: '['
-@Scratchpad/5:49
-*/
-/*
-Exception: SyntaxError: unexpected token: '['
-@Scratchpad/5:63
-*/
-/*
-Exception: TypeError: copy.delete is not a function
-@Scratchpad/5:65:14
-@Scratchpad/5:10:2
-*/
-/*
-Exception: TypeError: copy.push is not a function
-@Scratchpad/5:64:14
-@Scratchpad/5:10:2
-*/
-/*
-Exception: TypeError: copy[i] is undefined
-@Scratchpad/5:64:14
-@Scratchpad/5:10:2
+Exception: TypeError: copyObj.map is not a function
+@Scratchpad/1:97:18
+@Scratchpad/1:10:2
 */

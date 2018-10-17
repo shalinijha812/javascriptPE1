@@ -64,16 +64,13 @@ var jsonStr={
 }]
 }
 var result=jsonStr.articles;
-  result.forEach(element=>
+  result.map(element=>
                  {
                 delete result.url;
                 delete result.urlToImage;
                 delete result.publishedAt;
   });
-  var resultFinal=[];
-  resultFinal=Array.from(result);
-  console.log(resultFinal);
-  
+  console.log(result); 
 })();
 
 
